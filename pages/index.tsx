@@ -76,6 +76,7 @@ export default function Home(props: Props) {
 			<br />
 			<GitHubSection pinnedRepos={github!} />
 			<br />
+			<ToolsSection />
 		</div>
 	);
 }
