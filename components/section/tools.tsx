@@ -1,7 +1,21 @@
 import {
-	Instagram,
-	Discord,
-	
+	Cloudflare,
+	Git,
+	Go,
+	Icon,
+	Java,
+	Kotlin,
+	Nextdotjs,
+	Nodedotjs,
+	Postgresql,
+	ReactJs,
+	Redis,
+	Styledcomponents,
+	Supabase,
+	Svelte,
+	Typescript,
+	Vercel,
+	Yarn,
 } from '@icons-pack/react-simple-icons';
 
 import { WAKATIME_USERNAME } from 'lib/constants';
