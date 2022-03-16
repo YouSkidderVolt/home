@@ -10,14 +10,14 @@ function MyApp({ Component, pageProps }: AppProps) {
 	return (
 		<>
 			<Head>
-				<title>William Hayr</title>
+				<title>~Volt</title>
 			</Head>
 			<PageContainer>
 				<PageContent>
 					<Component {...pageProps} />
 				</PageContent>
 				<Footer>
-					<SubHeader style={{ marginBottom: '4px' }}>William Hayr</SubHeader>
+					<SubHeader style={{ marginBottom: '4px' }}>:D</SubHeader>
 					<p>© {new Date().getFullYear()}</p>
 					<br />
 					<p
@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 							color: 'rgba(255, 255, 255, 0.25)',
 						}}
 					>
-						Not affiliated with or endorsed by Mojang Studios or Microsoft
+						Made with 💖 by ~Volt
 					</p>
 				</Footer>
 			</PageContainer>
