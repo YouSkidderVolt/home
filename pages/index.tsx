@@ -51,14 +51,7 @@ export default function Home(props: Props) {
 					alignItems: 'center',
 				}}
 			>
-				{socials.map((social, i) => (
-					<Link href={social.link} passHref key={`social${i}`}>
-						<a target="_blank" style={{ paddingRight: '10px' }}>
-							<social.icon width={28} height={28} className={'socialIcon'} />
-						</a>
-					</Link>
-				))}
-				<DiscordPresence id={'388343727745400834'} />
+
 			</div>
 			<Header>Hey, I&lsquo;m ~Volt {isBirthday ? '🥳' : '👋'}</Header>
 			<Paragraph style={{ marginTop: '18px' }}>
