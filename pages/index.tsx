@@ -62,8 +62,7 @@ export default function Home(props: Props) {
 			</div>
 			<Header>Hey, I&lsquo;m ~Volt {isBirthday ? '🥳' : '👋'}</Header>
 			<Paragraph style={{ marginTop: '18px' }}>
-				I&lsquo;m a <Age birthdate={BIRTHDAY} />
-				-year-old aspiring student.
+				I&lsquo;m a 15-year-old aspiring student.
 			</Paragraph>
 			<Paragraph style={{ marginTop: '18px' }}>
 				I&lsquo;m learning Java currently and trying to creating multiplayer experiences for 
