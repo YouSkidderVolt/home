@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 					<Component {...pageProps} />
 				</PageContent>
 				<Footer>
-					<SubHeader style={{ marginBottom: '4px' }}>:D</SubHeader>
+					<SubHeader style={{ marginBottom: '4px' }}>~Volt</SubHeader>
 					<p>© {new Date().getFullYear()}</p>
 					<br />
 					<p
