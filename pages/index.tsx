@@ -20,17 +20,9 @@ interface Props {
 export default function Home(props: Props) {
 	const socials = [
 		{
-			link: 'https://github.com/iGalaxyYT',
-			icon: GitHub,
-		},
-		{
-			link: 'https://twitter.com/_iGalaxyYT',
-			icon: Twitter,
-		},
-		{
-			link: 'https://keybase.io/igalaxy',
-			icon: Key,
-		},
+			link: 'https://discord.com/users/388343727745400834',
+			icon: MessageSqueare,
+		}
 	];
 
 	const [isBirthday, setIsBirthday] = useState(isDate(BIRTHDAY));
@@ -68,21 +60,19 @@ export default function Home(props: Props) {
 				))}
 				<DiscordPresence id={'182292736790102017'} />
 			</div>
-			<Header>Hey, I&lsquo;m William {isBirthday ? '🥳' : '👋'}</Header>
+			<Header>Hey, I&lsquo;m ~Volt {isBirthday ? '🥳' : '👋'}</Header>
 			<Paragraph style={{ marginTop: '18px' }}>
 				I&lsquo;m a <Age birthdate={BIRTHDAY} />
-				-year-old aspiring software engineer & amateur game designer.
+				-year-old aspiring student.
 			</Paragraph>
 			<Paragraph style={{ marginTop: '18px' }}>
-				I&lsquo;m pursuing full-stack web development using modern technologies
-				and I&lsquo;m creating multiplayer experiences for Minecraft: Java
-				Edition.
+				I&lsquo;m learning Java currently and trying to creating multiplayer experiences for 
+                                Minecraft: Java & Bedrock Edition.
 			</Paragraph>
 			<br />
 			<SubHeader>What am I building? 🚀</SubHeader>
 			<Paragraph style={{ marginTop: '18px' }}>
-				I&lsquo;m currently juggling a lot of projects, but here is a selection
-				of some of my favorite open source projects I&lsquo;ve worked on.
+				I&lsquo;m currently working on nothing.
 			</Paragraph>
 			<br />
 			<GitHubSection pinnedRepos={github!} />
