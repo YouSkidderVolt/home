@@ -27,7 +27,7 @@ export const Tools = () => {
 			<ToolListItem
 				Logo={Discord}
 				text={'Discord'}
-				link={'https://discord.com/users/388343727745400834'},
+				<a href={'https://discord.com/users/388343727745400834'}></a>,
 					'Discord'
 				)}
 			/>
