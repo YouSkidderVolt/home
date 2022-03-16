@@ -2,9 +2,9 @@ export const BIRTHDAY = '2007-08-14';
 
 export const DISCORD_ID = '388343727745400834';
 
-export const GITHUB_USERNAME = 'iGalaxyYT';
+export const GITHUB_USERNAME = 'M4yank_09';
 
-export const LASTFM_USERNAME = 'iGalaxyYT';
+export const LASTFM_USERNAME = 'Mayank Bagad';
 
 export const WAKATIME_USERNAME = 'iGalaxy';
 
