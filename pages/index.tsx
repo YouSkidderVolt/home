@@ -58,7 +58,7 @@ export default function Home(props: Props) {
 						</a>
 					</Link>
 				))}
-				<DiscordPresence id={'182292736790102017'} />
+				<DiscordPresence id={'388343727745400834'} />
 			</div>
 			<Header>Hey, I&lsquo;m ~Volt {isBirthday ? '🥳' : '👋'}</Header>
 			<Paragraph style={{ marginTop: '18px' }}>
