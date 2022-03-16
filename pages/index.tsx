@@ -21,7 +21,7 @@ export default function Home(props: Props) {
 	const socials = [
 		{
 			link: 'https://discord.com/users/388343727745400834',
-			icon: MessageSqueare,
+			icon: MessageSquare,
 		}
 	];
 
