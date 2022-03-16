@@ -1,21 +1,7 @@
 import {
-	Cloudflare,
-	Git,
-	Go,
-	Icon,
-	Java,
-	Kotlin,
-	Nextdotjs,
-	Nodedotjs,
-	Postgresql,
-	ReactJs,
-	Redis,
-	Styledcomponents,
-	Supabase,
-	Svelte,
-	Typescript,
-	Vercel,
-	Yarn,
+	Instagram,
+	Discord,
+	
 } from '@icons-pack/react-simple-icons';
 
 import { WAKATIME_USERNAME } from 'lib/constants';
@@ -39,11 +25,10 @@ export const Tools = () => {
 			}}
 		>
 			<ToolListItem
-				Logo={Typescript}
-				text={'TypeScript'}
-				lang={useLanguageFromWakaTimeStats(
-					wakatime || { data: { languages: [] } },
-					'TypeScript'
+				Logo={Discord}
+				text={'Discord'}
+				link={'https://discord.com/users/388343727745400834'},
+					'Discord'
 				)}
 			/>
 			<ToolListItem
