@@ -1,6 +1,6 @@
-export const BIRTHDAY = '2005-03-13';
+export const BIRTHDAY = '2007-08-14';
 
-export const DISCORD_ID = '182292736790102017';
+export const DISCORD_ID = '388343727745400834';
 
 export const GITHUB_USERNAME = 'iGalaxyYT';
 
