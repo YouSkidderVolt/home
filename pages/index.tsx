@@ -76,14 +76,6 @@ export default function Home(props: Props) {
 			<br />
 			<GitHubSection pinnedRepos={github!} />
 			<br />
-			<SubHeader>What am I using? 🛠️</SubHeader>
-			<Paragraph style={{ marginTop: '18px' }}>
-				I&lsquo;m always trying to learn something new, and while I&lsquo;ve
-				traditionally focused on high-level web development, nowadays I&lsquo;m
-				branching out and exploring other languages such as Go.
-			</Paragraph>
-			<br />
-			<ToolsSection />
 		</div>
 	);
 }
