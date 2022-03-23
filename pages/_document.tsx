@@ -38,9 +38,7 @@ export default class MyDocument extends Document {
 	}
 
 	render() {
-		const description = `William Hayr — ${Math.floor(
-			dayjs().diff(BIRTHDAY, 'year', true)
-		)}-year-old aspiring software engineer & amateur game designer`;
+		const description = `Still in development...`;
 
 		return (
 			<Html lang="en">
@@ -52,26 +50,26 @@ export default class MyDocument extends Document {
 						rel="stylesheet"
 					/>
 
-					<meta property="og:title" content="William Hayr" />
+					<meta property="og:title" content="~Volt" />
 					<meta property="og:type" content="website" />
-					<meta property="og:url" content="https://igalaxy.dev" />
-					<meta property="twitter:url" content="https://igalaxy.dev" />
+					<meta property="og:url" content="https://discord.com/users/388343727745400834" />
+					<meta property="twitter:url" content="https://discord.com/users/388343727745400834" />
 
 					<meta name="description" content={description} />
 					<meta property="og:description" content={description} />
 					<meta property="twitter:description" content={description} />
 					<meta
 						name="keywords"
-						content="iGalaxy, William, William Hayr, software engineer, game designer"
+						content="Volt, Mayank, mayankkaprofile, mcdev"
 					/>
-					<meta name="author" content="William Hayr" />
+					<meta name="author" content="~Volt" />
 
 					<meta name="theme-color" content="#010409" />
 
 					<link
 						rel="icon"
 						type="image/png"
-						href="https://cdn.igalaxy.dev/iGalaxy_new_large.png"
+						href="https://imgur.com/a/hyYTsl6"
 					/>
 				</Head>
 				<body>
