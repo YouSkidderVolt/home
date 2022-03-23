@@ -69,7 +69,7 @@ export default class MyDocument extends Document {
 					<link
 						rel="icon"
 						type="image/png"
-						href="https://imgur.com/a/hyYTsl6"
+						href="https://imgur.com/a/7WqGF0a"
 					/>
 				</Head>
 				<body>
