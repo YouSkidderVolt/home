@@ -12,26 +12,10 @@ import { Header, Paragraph, SubHeader } from 'components/text';
 import { BIRTHDAY, GITHUB_USERNAME } from 'lib/constants';
 import { isDate } from 'lib/time';
 import { GitHubPinnedRepo, useGitHubPinnedRepos } from 'lib/hooks';
+import {
+	Discord,
+} from '@icons-pack/react-simple-icons';
 
-interface Props {
-	pinnedRepos: (GitHubPinnedRepo & { url: string })[];
-}
-
-export default function Home(props: Props) {
-	const socials = [
-		{
-			link: 'https://github.com/RatchanonDev',
-			icon: GitHub,
-		},
-		{
-			link: 'https://twitter.com/TinyWiFi',
-			icon: Twitter,
-		},
-		{
-			link: 'https://keybase.io/theyottabyte',
-			icon: Key,
-		},
-	];
 	const [isBirthday, setIsBirthday] = useState(isDate(BIRTHDAY));
 
 	const [intervalCheck, setIntervalCheck] = useState(0);
