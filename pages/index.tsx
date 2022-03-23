@@ -61,7 +61,7 @@ export default function Home(props: Props) {
 			<br />
 			<SubHeader>What am I building? 🚀</SubHeader>
 			<Paragraph style={{ marginTop: '18px' }}>
-				I&lsquo;m currently working on nothing.
+				I&lsquo;m currently working on studies 💀.
 			</Paragraph>
 			<br />
 			<br />
