@@ -22,12 +22,12 @@ function MyApp({ Component, pageProps }: AppProps) {
 					<br />
 					<p
 						style={{
-							fontSize: '8px',
+							fontSize: '12px',
 							float: 'right',
-							color: 'rgba(255, 255, 255, 0.25)',
+							color: 'rgba(252, 252, 252, 0.25)',
 						}}
 					>
-						Made with 💖 by ~Volt
+						Made with 💖
 					</p>
 				</Footer>
 			</PageContainer>
