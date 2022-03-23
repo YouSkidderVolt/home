@@ -38,7 +38,7 @@ export default class MyDocument extends Document {
 	}
 
 	render() {
-		const description = `Still in development...`;
+		const description = `🚧 Under development... 🚧`;
 
 		return (
 			<Html lang="en">
@@ -69,7 +69,7 @@ export default class MyDocument extends Document {
 					<link
 						rel="icon"
 						type="image/png"
-						href="https://imgur.com/a/7WqGF0a"
+						href="https://www.dropbox.com/s/h2kza9bi3yzchfb/static%20%2810%29.png?dl=1"
 					/>
 				</Head>
 				<body>
