@@ -59,7 +59,7 @@ export default function Home(props: Props) {
                                 Minecraft: Java & Bedrock Edition.
 			</Paragraph>
 			<br />
-			<SubHeader>What am I building? 🚀</SubHeader>
+			<SubHeader>What am I working on? 🚀</SubHeader>
 			<Paragraph style={{ marginTop: '18px' }}>
 				I&lsquo;m currently working on studies 💀.
 			</Paragraph>
