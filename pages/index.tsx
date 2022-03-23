@@ -50,18 +50,22 @@ export default function Home(props: Props) {
 			>
 
 			</div>
-			<Header>Hey, I&lsquo;m ~Volt {isBirthday ? '🥳' : '👋'}</Header>
+			<Header>Hey, I&lsquo;m Mayank! {isBirthday ? '🥳' : '👋'}</Header>
+			<Paragraph style={{ marginTop: '10px' }}>
+				AKA ~Volt
+			</Paragraph>
 			<Paragraph style={{ marginTop: '18px' }}>
 				I&lsquo;m a <Age birthdate={BIRTHDAY}/>-year-old aspiring student.
 			</Paragraph>
-			<Paragraph style={{ marginTop: '18px' }}>
+			
+			<Paragraph style={{ marginTop: '15px' }}>
 				I&lsquo;m learning Java currently and trying to creating multiplayer experiences for 
                                 Minecraft: Java & Bedrock Edition.
 			</Paragraph>
 			<br />
 			<SubHeader>What am I working on? 🚀</SubHeader>
 			<Paragraph style={{ marginTop: '18px' }}>
-				I&lsquo;m currently working on studies 💀.
+				I&lsquo;m currently working on studies 💀☠️.
 			</Paragraph>
 			<br />
 			<br />
