@@ -13,10 +13,6 @@ import { BIRTHDAY, GITHUB_USERNAME } from 'lib/constants';
 import { isDate } from 'lib/time';
 import { GitHubPinnedRepo, useGitHubPinnedRepos } from 'lib/hooks';
 
-interface Props {
-	pinnedRepos: (GitHubPinnedRepo & { url: string })[];
-}
-
 
 	const [isBirthday, setIsBirthday] = useState(isDate(BIRTHDAY));
 
