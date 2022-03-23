@@ -17,13 +17,6 @@ interface Props {
 	pinnedRepos: (GitHubPinnedRepo & { url: string })[];
 }
 
-export default function Home(props: Props) {
-	const socials = [
-		{
-			link: 'https://discord.com/users/388343727745400834',
-			icon: MessageSquare,
-		}
-	];
 
 	const [isBirthday, setIsBirthday] = useState(isDate(BIRTHDAY));
 
