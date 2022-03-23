@@ -20,9 +20,8 @@ interface Props {
 export default function Home(props: Props) {
 	const socials = [
 		{
-			link: 'https://github.com/M4yank09,
+			link: 'https://github.com/M4yank09',
 			icon: GitHub,
-
 		},
 	];
 
