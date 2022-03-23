@@ -64,9 +64,9 @@ export default function Home(props: Props) {
 				I&lsquo;m currently working on nothing.
 			</Paragraph>
 			<br />
-			<GitHubSection pinnedRepos={github!} />
+			<GitHubSection pinnedRepos={Github!} />
 			<br />
-			<ToolsSection />
+			
 		</div>
 	);
 }
