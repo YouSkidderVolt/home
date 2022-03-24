@@ -59,7 +59,7 @@ export default function Home(props: Props) {
 			</Paragraph>
 			
 			<Paragraph style={{ marginTop: '10px' }}>
-				I&lsquo;m learning Java currently and trying to creating multiplayer experiences for 
+				I&lsquo;m learning Java currently and trying to create multiplayer experiences for 
                                 Minecraft: Java & Bedrock Edition.
 			</Paragraph>
 			<br />
