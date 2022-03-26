@@ -65,7 +65,8 @@ export default function Home(props: Props) {
 			<br />
 			<SubHeader>Socials? 💬</SubHeader>
 			<Paragraph style={{ marginTop: '10px' }}>
-				Coming Soon...
+				Coming Soon... 
+				<Link to="https://discord.gg/dYgbkNf7e">dc</Link>
 			</Paragraph>
 			<SubHeader>What am I working on? 🚀</SubHeader>
 			<Paragraph style={{ marginTop: '18px' }}>
